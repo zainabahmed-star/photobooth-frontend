@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Schoolbell&display=swap');
+
+:root {
+  font-family: "Google Sans Flex", sans-serif;
+
+  --color-primary: #4f46e5;
+  --color-primary-dark: #4338ca;
+  --color-primary-soft: #e0e7ff;
+  --color-success: #15803d;
+  --color-text: #1f2937;
+  --color-text-light: #6b7280;
+  --color-background: #f4f6f8;
+  --color-surface: #ffffff;
+  --color-border: #d1d5db;
+  --color-error: #dc2626;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  /* background-color: var(--color-background); */
+  background: #E0E7FF;
+  background: linear-gradient(90deg, rgba(224, 231, 255, 1) 0%, rgba(79, 70, 229, 1) 100%);
+  color: var(--color-text);
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, p {
+  margin-top: 0;
+}
