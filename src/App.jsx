@@ -6,10 +6,9 @@ import DesignStudio from "./components/DesignStudio"
 const App = () => {
   return (
     <Routes>
-      <Route path='/' element={<Navigate to='/booth' replace />} />
-      <Route path='/booth' element={<PhotoBooth />} />
+      <Route path='/' element={<PhotoBooth />} />
       <Route path='/design' element={<DesignStudio />} />
-      <Route path='*' element={<Navigate to='/booth' replace />} />
+      <Route path='*' element={<Navigate to='/' replace />} />
     </Routes>
   )
 }
