@@ -7,7 +7,7 @@ const App = () => {
   return (
     <Routes>
       <Route path='/' element={<PhotoBooth />} />
-      <Route path='/design' element={<DesignStudio />} />
+      {import.meta.env.DEV && <Route path='/design' element={<DesignStudio />} />}
       <Route path='*' element={<Navigate to='/' replace />} />
     </Routes>
   )
